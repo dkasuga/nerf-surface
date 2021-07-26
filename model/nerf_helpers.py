@@ -253,6 +253,7 @@ def sample_pdf(bins, weights, num_samples, det=False):
     return samples
 
 
+# https://github.com/krrish94/nerf-pytorch/blob/a14357da6cada433d28bf11a45c7bcaace76c06e/nerf/nerf_helpers.py
 def sample_pdf_2(bins, weights, num_samples, det=False):
     r"""sample_pdf function from another concurrent pytorch implementation
     by yenchenlin (https://github.com/yenchenlin/nerf-pytorch).
